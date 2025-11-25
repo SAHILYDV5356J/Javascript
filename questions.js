@@ -40,3 +40,24 @@ for(let i=0;i<arr.length;i++){
 }
 
 
+
+
+
+
+// object making
+
+const student= {
+    name:"sahil Yadav",
+    age:19,
+    rollno : 25035,
+    grade: 'A'
+
+}
+
+for(let details in student){
+    console.log(details+ " : "  +student[details]);
+}
+
+
+
+
