@@ -10,3 +10,19 @@ if(n==='a' || n==='e' || n==='i' || n=== 'o' || n==='u' || n==='A' || n==='E' ||
 else{
     console.log(`${n} is an consonent`);
 }
+
+
+
+
+
+// find sum of n natural numbers
+
+var n=prompt("enter a number:");
+
+var sum=0;
+
+for(let i=1;i<=n;i++){
+    sum+=i;
+}
+
+console.log(sum);
